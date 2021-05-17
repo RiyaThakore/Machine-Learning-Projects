@@ -17,7 +17,7 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ### Code
 
-Template code is provided in the `Breast-Cancer-Detection.ipynb` notebook file. 
+Template code is provided in the `Breast_Cancer_Detection.ipynb` notebook file. 
 
 ### Data
 
@@ -35,4 +35,4 @@ The modified Boston housing dataset consists of 699 data points, with each datap
 9. `Mitoses`
 
 **Target Variable**
-1. `Class`: median value of owner-occupied homes
+1. `Class`
