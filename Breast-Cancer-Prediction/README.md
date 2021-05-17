@@ -1,12 +1,12 @@
-# Machine Learning Engineer Nanodegree
-# Model Evaluation and Validation
-## Project: Predicting Boston Housing Prices
+
+## Project: Breast Cancer Prediction
 
 ### Install
 
 This project requires **Python** and the following Python libraries installed:
 
 - [NumPy](http://www.numpy.org/)
+- [SciPy](https://www.scipy.org/)
 - [Pandas](http://pandas.pydata.org/)
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
@@ -17,34 +17,22 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ### Code
 
-Template code is provided in the `boston_housing.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
-
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `boston_housing/` (that contains this README) and run one of the following commands:
-
-```bash
-ipython notebook boston_housing.ipynb
-```  
-or
-```bash
-jupyter notebook boston_housing.ipynb
-```
-or open with Juoyter Lab
-```bash
-jupyter lab
-```
-
-This will open the Jupyter Notebook software and project file in your browser.
+Template code is provided in the `Breast-Cancer-Detection.ipynb` notebook file. 
 
 ### Data
 
-The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/).
+The modified Boston housing dataset consists of 699 data points, with each datapoint having 9 features. This dataset is found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data).
 
 **Features**
-1.  `RM`: average number of rooms per dwelling
-2. `LSTAT`: percentage of population considered lower status
-3. `PTRATIO`: pupil-teacher ratio by town
+1. `Clump Thickness`
+2. `Uniform Cell Size`
+3. `Uniform Cell Shape`
+4. `Marginal Adhesion`
+5. `Single Epithelial Size`
+6. `Bare Nuclei`
+7. `Bland Chromatin`
+8. `Normal Nucleoli`
+9. `Mitoses`
 
 **Target Variable**
-4. `MEDV`: median value of owner-occupied homes
+1. `Class`: median value of owner-occupied homes
