@@ -21,7 +21,7 @@ Template code is provided in the `Breast_Cancer_Detection.ipynb` notebook file.
 
 ### Data
 
-The modified Boston housing dataset consists of 699 data points, with each datapoint having 9 features. This dataset is found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data).
+The dataset consists of 699 data points, with each datapoint having 9 features. This dataset is found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data).
 
 **Features**
 1. `Clump Thickness`
